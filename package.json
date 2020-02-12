@@ -2,6 +2,10 @@
   "name": "movie-test",
   "version": "1.0.0",
   "description": "Movie test from yoma fleet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phyowailinn/react-movie-test"
+  },
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --config ./webpack.js --mode development"
