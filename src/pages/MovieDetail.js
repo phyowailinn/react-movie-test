@@ -22,7 +22,7 @@ const DetailPage = props => {
             </div>
             <div id="movie-info" className="col-xs-10 col-sm-14 col-md-7 col-lg-8 col-lg-offset-1">
               <div className="hidden-xs">
-                <h1>Ben 10: Secret of the Omnitrix</h1>
+                <h1>{props.detail.title}</h1>
                 <h2>{moment(props.detail.release_date).format('YYYY')}</h2>
                 <h2>{ loopGen }</h2>
               </div>
