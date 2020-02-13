@@ -37,7 +37,7 @@ const DetailPage = props => {
               <p className="hidden-xs hidden-sm">
               </p>
               <div className="rating-row">
-                <a className="icon" href="https://www.imdb.com/title/tt1146431/" title="IMDb Rating" target="_blank"> <img src="/assets/images/logo-imdb.svg" alt="IMDb Rating" /> </a>
+                <a className="icon" href="#" title="IMDb Rating"> <img src="/assets/images/logo-imdb.svg" alt="IMDb Rating" /> </a>
                 <span>{ props.detail.vote_average} / 10</span>
               </div>
             </div>
